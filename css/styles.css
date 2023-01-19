@@ -77,8 +77,16 @@ img {
 
 /* HOME SHOWCASE */
 .full-height-showcase {
+  min-height: 100vh;
+  height: 100%;
   position: relative;
-  padding-top: 10px;
+}
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .text-brand {
@@ -97,13 +105,13 @@ img {
   opacity: 0.5;
   background-image: url(../images/showcase.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: center;
   background-size: cover;
 }
 
 #home .content {
   position: relative;
-  /* padding-right: 50px; */
+  padding-right: 50px;
 }
 
 #home .content p {
